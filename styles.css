@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  text-align: center;
+}
+
+.input-area {
+  margin: 20px 0;
+}
+
+.input-area input {
+  margin: 5px;
+  padding: 5px;
+}
+
+#addBtn, #resetAll {
+  padding: 5px 15px;
+  margin: 5px;
+}
+
+#taskList {
+  list-style-type: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#taskList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.overdue {
+  background-color: #ffe5e5;
+  color: #c00;
+}
